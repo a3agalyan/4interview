@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/rmn/.claude/skills/agents-best-practices/references/**)",
+      "Bash(ls /Users/rmn/.claude/skills/ 2>/dev/null || echo \"No skills dir\")",
+      "Read(//Users/rmn/.claude/skills/**)"
+    ]
+  }
+}
