@@ -28,6 +28,8 @@ You have an interview at Google, Stripe, or Capital One in a few days. You:
 
 Open Blind — posts are 3 years old. Open Reddit — thread is locked. Open Glassdoor — paywall. Two hours gone, nothing prepared.
 
+And not all interviews are the same. Sometimes it's not just Leetcode or System Design — it's a domain-specific technical screen, a take-home, a case study, or something the recruiter barely explained. So you're not just searching, you're searching for the right thing, and that can cost you hours you don't have.
+
 ## What this does instead
 
 Type `/4interview` in Claude Code. It asks you 5 questions (company, role, interview type, job description, HR notes). Then it:
@@ -44,7 +46,7 @@ Type `/4interview` in Claude Code. It asks you 5 questions (company, role, inter
 
 ```bash
 mkdir -p ~/.claude/skills/4interview
-curl -fsSL https://raw.githubusercontent.com/armenag/4interview/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/a3agalyan/4interview/main/SKILL.md \
   -o ~/.claude/skills/4interview/SKILL.md
 ```
 
